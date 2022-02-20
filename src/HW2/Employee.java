@@ -9,4 +9,9 @@ public class Employee {
     int phone;
     int age;
 
+    public void empInfo() {
+        System.out.println("Инфо о сотруднике: " + name + " " + surname + " " + position + " " + email + " " + salary + " " + phone + " " + age);
+    }
+
+
 }
