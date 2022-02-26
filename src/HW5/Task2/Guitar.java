@@ -1,4 +1,4 @@
-package HW5;
+package HW5.Task2;
 
 public class Guitar implements Instrument {
     private int quantityString;
@@ -10,6 +10,6 @@ public class Guitar implements Instrument {
 
     @Override
     public void play() {
-        System.out.println("Играет гитара с кол-вом струн "+ quantityString);
+        System.out.println("Играет гитара с кол-вом струн = "+ quantityString);
     }
 }
